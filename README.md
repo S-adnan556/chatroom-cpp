@@ -12,12 +12,12 @@ make
 ```
 3. To run the server application, use this command in the terminal :
 ```
-./server
+./server.bin
 ```
 
 4. Now, open another terminal and use this command to run the client application :
 ```
-./client
+./client.bin
 ```
 
 5. For opening multiple client applications, repeat step 4.
