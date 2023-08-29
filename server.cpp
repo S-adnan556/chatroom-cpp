@@ -128,7 +128,8 @@ int broadcast_message(string message, int sender_id)
 		{
 			send(clients[i].socket,temp,sizeof(temp),0);
 		}
-	}		
+	}
+	return 0;// added return statement		
 }
 
 // Broadcast a number to all clients except the sender
@@ -140,7 +141,8 @@ int broadcast_message(int num, int sender_id)
 		{
 			send(clients[i].socket,&num,sizeof(num),0);
 		}
-	}		
+	}
+	return 0;// added return statement		
 }
 
 void end_connection(int id)
